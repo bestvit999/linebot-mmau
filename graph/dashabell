@@ -1,0 +1,82 @@
+// mix graph
+digraph {
+	"Mix Info" [label="Mix INFO:
+xxxxxxxxxxxxxxxx" shape=box style=rounded]
+	dashabell [label=<<table border="0"><tr><td border="0"><img src="srcImage/264.png"/></td></tr><tr><td>dashabell 69~94</td></tr><tr><td>'[1] Rrainova + [1] BattleRoyale'</td></tr><tr><td>'[1] Rrainova + [1] Phoenix'</td></tr><tr><td>'[1] Rrainova + [1] SwordTail'</td></tr><tr><td>'[1] Rrainova + [1] Thunderbird'</td></tr><tr><td>'[1] Rrainova + [1] Amazonez'</td></tr><tr><td>'[1] Rrainova + [1] BeetlePete'</td></tr></table>> shape=box style=rounded]
+	Rrainova [label=<<table border="0"><tr><td border="0"><img src="srcImage/109.png"/></td></tr><tr><td>Rrainova 47~72</td></tr><tr><td>'Torra + BattleDragon'</td></tr><tr><td>'Torra + [1] HornKing'</td></tr><tr><td>'Torra + Cactusing'</td></tr><tr><td>'Torra + MysticYoyo'</td></tr><tr><td>'Torra + [1] Clawless'</td></tr></table>> shape=box style=rounded]
+	dashabell -> Rrainova
+	Torra [label=<<table border="0"><tr><td border="0"><img src="srcImage/105.png"/></td></tr><tr><td>Torra 34~59</td></tr><tr><td>'OneStump + Monoeye'</td></tr><tr><td>'OneStump + DayCrawl'</td></tr><tr><td>'OneStump + Cactusing'</td></tr><tr><td>'OneStump + Cowty'</td></tr><tr><td>'OneStump + PayaPaya'</td></tr></table>> shape=box style=rounded]
+	Rrainova -> Torra
+	BattleDragon [label=<<table border="0"><tr><td border="0"><img src="srcImage/41.png"/></td></tr><tr><td>BattleDragon 36~61</td></tr><tr><td>'Mitra + HighLife'</td></tr><tr><td>'Haedragon + TankTortus'</td></tr><tr><td>'Haedragon + Oscar'</td></tr><tr><td>'Haedragon + Malreino'</td></tr></table>> shape=box style=rounded]
+	Rrainova -> BattleDragon
+	HornKing [label=<<table border="0"><tr><td border="0"><img src="srcImage/340.png"/></td></tr><tr><td>HornKing 47~72</td></tr><tr><td>'Delcoi + Asakayza'</td></tr><tr><td>'Delcoi + Cactusing'</td></tr><tr><td>'Delcoi + Synicks'</td></tr><tr><td>'Delcoi + Liddy'</td></tr></table>> shape=box style=rounded]
+	Rrainova -> HornKing
+	Cactusing [label=<<table border="0"><tr><td border="0"><img src="srcImage/240.png"/></td></tr><tr><td>Cactusing 33~58</td></tr><tr><td>'Douda + Manta'</td></tr><tr><td>'Douda + Oscar'</td></tr><tr><td>'Douda + ArmaBall'</td></tr></table>> shape=box style=rounded]
+	Rrainova -> Cactusing
+	MysticYoyo [label=<<table border="0"><tr><td border="0"><img src="srcImage/73.png"/></td></tr><tr><td>MysticYoyo 35~60</td></tr><tr><td></td></tr></table>> shape=box style=rounded]
+	Rrainova -> MysticYoyo
+	Clawless [label=<<table border="0"><tr><td border="0"><img src="srcImage/224.png"/></td></tr><tr><td>Clawless 43~68</td></tr><tr><td>'Liddy + Oscar'</td></tr><tr><td>'Liddy + Bota'</td></tr><tr><td>'Liddy + Synicks'</td></tr><tr><td>'Liddy + Douda'</td></tr><tr><td>'Liddy + Pana'</td></tr><tr><td>'Liddy + Torra'</td></tr></table>> shape=box style=rounded]
+	Rrainova -> Clawless
+	BattleRoyale [label=<<table border="0"><tr><td border="0"><img src="srcImage/266.png"/></td></tr><tr><td>BattleRoyale 46~71</td></tr><tr><td>'BattleDragon + [1] Gamerika'</td></tr><tr><td>'BattleDragon + Asakayza'</td></tr><tr><td>'BattleDragon + MysticYoyo'</td></tr></table>> shape=box style=rounded]
+	dashabell -> BattleRoyale
+	BattleDragon [label=<<table border="0"><tr><td border="0"><img src="srcImage/41.png"/></td></tr><tr><td>BattleDragon 36~61</td></tr><tr><td>'Mitra + HighLife'</td></tr><tr><td>'Haedragon + TankTortus'</td></tr><tr><td>'Haedragon + Oscar'</td></tr><tr><td>'Haedragon + Malreino'</td></tr></table>> shape=box style=rounded]
+	BattleRoyale -> BattleDragon
+	Gamerika [label=<<table border="0"><tr><td border="0"><img src="srcImage/260.png"/></td></tr><tr><td>Gamerika 50~75</td></tr><tr><td>'TankTortus + Malreino'</td></tr><tr><td>'TankTortus + ArmaBall'</td></tr><tr><td>'TankTortus + [1] Chikaki'</td></tr><tr><td>'TankTortus + Haedragon'</td></tr><tr><td>'TankTortus + [1] Clawless'</td></tr></table>> shape=box style=rounded]
+	BattleRoyale -> Gamerika
+	Asakayza [label=<<table border="0"><tr><td border="0"><img src="srcImage/169.png"/></td></tr><tr><td>Asakayza 37~62</td></tr><tr><td>'PayaPaya + HighLife'</td></tr><tr><td>'PayaPaya + Lemoni'</td></tr><tr><td>'PayaPaya + Bubri'</td></tr><tr><td>'PayaPaya + TimTona'</td></tr><tr><td>'PayaPaya + Baccho'</td></tr><tr><td>'Baccho + NightIme'</td></tr><tr><td>'Delcoi + Yassie'</td></tr></table>> shape=box style=rounded]
+	BattleRoyale -> Asakayza
+	MysticYoyo [label=<<table border="0"><tr><td border="0"><img src="srcImage/73.png"/></td></tr><tr><td>MysticYoyo 35~60</td></tr><tr><td></td></tr></table>> shape=box style=rounded]
+	BattleRoyale -> MysticYoyo
+	Phoenix [label=<<table border="0"><tr><td border="0"><img src="srcImage/211.png"/></td></tr><tr><td>Phoenix 58~83</td></tr><tr><td>'[1] SwordTail + [1] BattleRoyale'</td></tr><tr><td>'[1] SwordTail + [1] Thunderbird'</td></tr></table>> shape=box style=rounded]
+	dashabell -> Phoenix
+	SwordTail [label=<<table border="0"><tr><td border="0"><img src="srcImage/271.png"/></td></tr><tr><td>SwordTail 56~81</td></tr><tr><td>'[1] Thunderbird + [1] Thunderbird'</td></tr><tr><td>'[1] Thunderbird + [1] Tenkaki'</td></tr><tr><td>'[1] Thunderbird + [1] Amazonez'</td></tr></table>> shape=box style=rounded]
+	Phoenix -> SwordTail
+	BattleRoyale [label=<<table border="0"><tr><td border="0"><img src="srcImage/266.png"/></td></tr><tr><td>BattleRoyale 46~71</td></tr><tr><td>'BattleDragon + [1] Gamerika'</td></tr><tr><td>'BattleDragon + Asakayza'</td></tr><tr><td>'BattleDragon + MysticYoyo'</td></tr></table>> shape=box style=rounded]
+	Phoenix -> BattleRoyale
+	Thunderbird [label=<<table border="0"><tr><td border="0"><img src="srcImage/145.png"/></td></tr><tr><td>Thunderbird 48~73</td></tr><tr><td>'Synicks + Asakayza'</td></tr><tr><td>'Synicks + BattleDragon'</td></tr></table>> shape=box style=rounded]
+	Phoenix -> Thunderbird
+	SwordTail [label=<<table border="0"><tr><td border="0"><img src="srcImage/271.png"/></td></tr><tr><td>SwordTail 56~81</td></tr><tr><td>'[1] Thunderbird + [1] Thunderbird'</td></tr><tr><td>'[1] Thunderbird + [1] Tenkaki'</td></tr><tr><td>'[1] Thunderbird + [1] Amazonez'</td></tr></table>> shape=box style=rounded]
+	dashabell -> SwordTail
+	Thunderbird [label=<<table border="0"><tr><td border="0"><img src="srcImage/145.png"/></td></tr><tr><td>Thunderbird 48~73</td></tr><tr><td>'Synicks + Asakayza'</td></tr><tr><td>'Synicks + BattleDragon'</td></tr></table>> shape=box style=rounded]
+	SwordTail -> Thunderbird
+	Tenkaki [label=<<table border="0"><tr><td border="0"><img src="srcImage/241.png"/></td></tr><tr><td>Tenkaki 43~68</td></tr><tr><td>'Douda + Monoeye'</td></tr><tr><td>'Douda + OneStump'</td></tr><tr><td>'Cactusing + OneStump'</td></tr></table>> shape=box style=rounded]
+	SwordTail -> Tenkaki
+	Amazonez [label=<<table border="0"><tr><td border="0"><img src="srcImage/196.png"/></td></tr><tr><td>Amazonez 48~73</td></tr><tr><td>'MysticYoyo + Asakayza'</td></tr><tr><td>'MysticYoyo + [1] Tenkaki'</td></tr><tr><td>'MysticYoyo + Torra'</td></tr><tr><td>'Skullwiser + AncientKilla'</td></tr><tr><td>'Skullwiser + MysticYoyo'</td></tr></table>> shape=box style=rounded]
+	SwordTail -> Amazonez
+	Thunderbird [label=<<table border="0"><tr><td border="0"><img src="srcImage/145.png"/></td></tr><tr><td>Thunderbird 48~73</td></tr><tr><td>'Synicks + Asakayza'</td></tr><tr><td>'Synicks + BattleDragon'</td></tr></table>> shape=box style=rounded]
+	dashabell -> Thunderbird
+	Synicks [label=<<table border="0"><tr><td border="0"><img src="srcImage/141.png"/></td></tr><tr><td>Synicks 30~55</td></tr><tr><td>'HighLife + NTV'</td></tr><tr><td>'HighLife + ArnDev'</td></tr></table>> shape=box style=rounded]
+	Thunderbird -> Synicks
+	Asakayza [label=<<table border="0"><tr><td border="0"><img src="srcImage/169.png"/></td></tr><tr><td>Asakayza 37~62</td></tr><tr><td>'PayaPaya + HighLife'</td></tr><tr><td>'PayaPaya + Lemoni'</td></tr><tr><td>'PayaPaya + Bubri'</td></tr><tr><td>'PayaPaya + TimTona'</td></tr><tr><td>'PayaPaya + Baccho'</td></tr><tr><td>'Baccho + NightIme'</td></tr><tr><td>'Delcoi + Yassie'</td></tr></table>> shape=box style=rounded]
+	Thunderbird -> Asakayza
+	BattleDragon [label=<<table border="0"><tr><td border="0"><img src="srcImage/41.png"/></td></tr><tr><td>BattleDragon 36~61</td></tr><tr><td>'Mitra + HighLife'</td></tr><tr><td>'Haedragon + TankTortus'</td></tr><tr><td>'Haedragon + Oscar'</td></tr><tr><td>'Haedragon + Malreino'</td></tr></table>> shape=box style=rounded]
+	Thunderbird -> BattleDragon
+	Amazonez [label=<<table border="0"><tr><td border="0"><img src="srcImage/196.png"/></td></tr><tr><td>Amazonez 48~73</td></tr><tr><td>'MysticYoyo + Asakayza'</td></tr><tr><td>'MysticYoyo + [1] Tenkaki'</td></tr><tr><td>'MysticYoyo + Torra'</td></tr><tr><td>'Skullwiser + AncientKilla'</td></tr><tr><td>'Skullwiser + MysticYoyo'</td></tr></table>> shape=box style=rounded]
+	dashabell -> Amazonez
+	MysticYoyo [label=<<table border="0"><tr><td border="0"><img src="srcImage/73.png"/></td></tr><tr><td>MysticYoyo 35~60</td></tr><tr><td></td></tr></table>> shape=box style=rounded]
+	Amazonez -> MysticYoyo
+	Asakayza [label=<<table border="0"><tr><td border="0"><img src="srcImage/169.png"/></td></tr><tr><td>Asakayza 37~62</td></tr><tr><td>'PayaPaya + HighLife'</td></tr><tr><td>'PayaPaya + Lemoni'</td></tr><tr><td>'PayaPaya + Bubri'</td></tr><tr><td>'PayaPaya + TimTona'</td></tr><tr><td>'PayaPaya + Baccho'</td></tr><tr><td>'Baccho + NightIme'</td></tr><tr><td>'Delcoi + Yassie'</td></tr></table>> shape=box style=rounded]
+	Amazonez -> Asakayza
+	Tenkaki [label=<<table border="0"><tr><td border="0"><img src="srcImage/241.png"/></td></tr><tr><td>Tenkaki 43~68</td></tr><tr><td>'Douda + Monoeye'</td></tr><tr><td>'Douda + OneStump'</td></tr><tr><td>'Cactusing + OneStump'</td></tr></table>> shape=box style=rounded]
+	Amazonez -> Tenkaki
+	Torra [label=<<table border="0"><tr><td border="0"><img src="srcImage/105.png"/></td></tr><tr><td>Torra 34~59</td></tr><tr><td>'OneStump + Monoeye'</td></tr><tr><td>'OneStump + DayCrawl'</td></tr><tr><td>'OneStump + Cactusing'</td></tr><tr><td>'OneStump + Cowty'</td></tr><tr><td>'OneStump + PayaPaya'</td></tr></table>> shape=box style=rounded]
+	Amazonez -> Torra
+	Skullwiser [label=<<table border="0"><tr><td border="0"><img src="srcImage/77.png"/></td></tr><tr><td>Skullwiser 38~63</td></tr><tr><td>'ArnDev + Soo'</td></tr><tr><td>'Mahollow + Deepsuffer'</td></tr><tr><td>'Mahollow + MoonRaid'</td></tr><tr><td>'Mahollow + Mitra'</td></tr><tr><td>'Mahollow + NightIme'</td></tr><tr><td>'MysticYoyo + BattleDragon'</td></tr></table>> shape=box style=rounded]
+	Amazonez -> Skullwiser
+	AncientKilla [label=<<table border="0"><tr><td border="0"><img src="srcImage/327.png"/></td></tr><tr><td>AncientKilla 38~63</td></tr><tr><td>'Bota + Dr.Calvin'</td></tr><tr><td>'Bota + Synicks'</td></tr><tr><td>'Monoeye + Delcoi'</td></tr><tr><td>'Monoeye + Yassie'</td></tr></table>> shape=box style=rounded]
+	Amazonez -> AncientKilla
+	BeetlePete [label=<<table border="0"><tr><td border="0"><img src="srcImage/173.png"/></td></tr><tr><td>BeetlePete 53~78</td></tr><tr><td>'Asakayza + [1] HornKing'</td></tr><tr><td>'Asakayza + Cactusing'</td></tr><tr><td>'Asakayza + Skullwiser'</td></tr><tr><td>'Asakayza + [1] Chikaki'</td></tr><tr><td>'Asakayza + [1] Clawless'</td></tr></table>> shape=box style=rounded]
+	dashabell -> BeetlePete
+	Asakayza [label=<<table border="0"><tr><td border="0"><img src="srcImage/169.png"/></td></tr><tr><td>Asakayza 37~62</td></tr><tr><td>'PayaPaya + HighLife'</td></tr><tr><td>'PayaPaya + Lemoni'</td></tr><tr><td>'PayaPaya + Bubri'</td></tr><tr><td>'PayaPaya + TimTona'</td></tr><tr><td>'PayaPaya + Baccho'</td></tr><tr><td>'Baccho + NightIme'</td></tr><tr><td>'Delcoi + Yassie'</td></tr></table>> shape=box style=rounded]
+	BeetlePete -> Asakayza
+	HornKing [label=<<table border="0"><tr><td border="0"><img src="srcImage/340.png"/></td></tr><tr><td>HornKing 47~72</td></tr><tr><td>'Delcoi + Asakayza'</td></tr><tr><td>'Delcoi + Cactusing'</td></tr><tr><td>'Delcoi + Synicks'</td></tr><tr><td>'Delcoi + Liddy'</td></tr></table>> shape=box style=rounded]
+	BeetlePete -> HornKing
+	Cactusing [label=<<table border="0"><tr><td border="0"><img src="srcImage/240.png"/></td></tr><tr><td>Cactusing 33~58</td></tr><tr><td>'Douda + Manta'</td></tr><tr><td>'Douda + Oscar'</td></tr><tr><td>'Douda + ArmaBall'</td></tr></table>> shape=box style=rounded]
+	BeetlePete -> Cactusing
+	Skullwiser [label=<<table border="0"><tr><td border="0"><img src="srcImage/77.png"/></td></tr><tr><td>Skullwiser 38~63</td></tr><tr><td>'ArnDev + Soo'</td></tr><tr><td>'Mahollow + Deepsuffer'</td></tr><tr><td>'Mahollow + MoonRaid'</td></tr><tr><td>'Mahollow + Mitra'</td></tr><tr><td>'Mahollow + NightIme'</td></tr><tr><td>'MysticYoyo + BattleDragon'</td></tr></table>> shape=box style=rounded]
+	BeetlePete -> Skullwiser
+	Chikaki [label=<<table border="0"><tr><td border="0"><img src="srcImage/242.png"/></td></tr><tr><td>Chikaki 46~71</td></tr><tr><td>'Pana + Rabie'</td></tr><tr><td>'Yassie + Asakayza'</td></tr><tr><td>'Cactusing + Bolarish'</td></tr></table>> shape=box style=rounded]
+	BeetlePete -> Chikaki
+	Clawless [label=<<table border="0"><tr><td border="0"><img src="srcImage/224.png"/></td></tr><tr><td>Clawless 43~68</td></tr><tr><td>'Liddy + Oscar'</td></tr><tr><td>'Liddy + Bota'</td></tr><tr><td>'Liddy + Synicks'</td></tr><tr><td>'Liddy + Douda'</td></tr><tr><td>'Liddy + Pana'</td></tr><tr><td>'Liddy + Torra'</td></tr></table>> shape=box style=rounded]
+	BeetlePete -> Clawless
+}

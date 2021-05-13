@@ -1,0 +1,14 @@
+// mix graph
+digraph {
+	neodarkpitt [label=<<table border="0"><tr><td border="0"><img src="srcImage/1752.png"/></td></tr><tr><td>neodarkpitt</td></tr><tr><td>'[3] Dark Pitt + [3] NeoTinker'</td></tr></table>> shape=box style=rounded]
+	DarkPitt [label=<<table border="0"><tr><td border="0"><img src="srcImage/431.png"/></td></tr><tr><td>DarkPitt</td></tr><tr><td></td></tr></table>> shape=box style=rounded]
+	neodarkpitt -> DarkPitt
+	NeoTinker [label=<<table border="0"><tr><td border="0"><img src="srcImage/1756.png"/></td></tr><tr><td>NeoTinker</td></tr><tr><td>'[3] TinkerBell + [3] FireDuck'</td></tr><tr><td>'[3] WildBalzac + [3] FireDuck'</td></tr></table>> shape=box style=rounded]
+	neodarkpitt -> NeoTinker
+	TinkerBell [label=<<table border="0"><tr><td border="0"><img src="srcImage/856.png"/></td></tr><tr><td>TinkerBell</td></tr><tr><td>'[3] BigHead + [3] GateToDeath (Drop)'</td></tr><tr><td>'[3] BigHead + [3] GateToDeath'</td></tr></table>> shape=box style=rounded]
+	NeoTinker -> TinkerBell
+	FireDuck [label=<<table border="0"><tr><td border="0"><img src="srcImage/1674.png"/></td></tr><tr><td>FireDuck</td></tr><tr><td>'[3] New Griffin + [3] InfernoDuke'</td></tr></table>> shape=box style=rounded]
+	NeoTinker -> FireDuck
+	WildBalzac [label=<<table border="0"><tr><td border="0"><img src="srcImage/1758.png"/></td></tr><tr><td>WildBalzac</td></tr><tr><td>'[3] Balzac + [3] NeoFennecus'</td></tr></table>> shape=box style=rounded]
+	NeoTinker -> WildBalzac
+}

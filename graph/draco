@@ -1,0 +1,4 @@
+// mix graph
+digraph {
+	draco [label=<<table border="0"><tr><td border="0"><img src="srcImage/1.png"/></td></tr><tr><td>draco 1~26</td></tr><tr><td></td></tr></table>> shape=box style=rounded]
+}

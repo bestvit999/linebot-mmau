@@ -1,0 +1,24 @@
+// mix graph
+digraph {
+	neoTinker [label=<<table border="0"><tr><td border="0"><img src="srcImage/1756.png"/></td></tr><tr><td>neoTinker</td></tr><tr><td>'[3] TinkerBell + [3] FireDuck'</td></tr><tr><td>'[3] WildBalzac + [3] FireDuck'</td></tr></table>> shape=box style=rounded]
+	TinkerBell [label=<<table border="0"><tr><td border="0"><img src="srcImage/856.png"/></td></tr><tr><td>TinkerBell</td></tr><tr><td>'[3] BigHead + [3] GateToDeath (Drop)'</td></tr><tr><td>'[3] BigHead + [3] GateToDeath'</td></tr></table>> shape=box style=rounded]
+	neoTinker -> TinkerBell
+	BigHead [label=<<table border="0"><tr><td border="0"><img src="srcImage/869.png"/></td></tr><tr><td>BigHead</td></tr><tr><td>'[3] Black Mir + [3] PetitChikaki'</td></tr></table>> shape=box style=rounded]
+	TinkerBell -> BigHead
+	"GateToDeath(Drop)" [label=<<table border="0"><tr><td border="0"><img src="srcImage/418.png"/></td></tr><tr><td>GateToDeath(Drop)</td></tr><tr><td></td></tr></table>> shape=box style=rounded]
+	TinkerBell -> "GateToDeath(Drop)"
+	GateToDeath [label=<<table border="0"><tr><td border="0"><img src="srcImage/382.png"/></td></tr><tr><td>GateToDeath</td></tr><tr><td>'[2] Banshee + [2] Siperous'</td></tr></table>> shape=box style=rounded]
+	TinkerBell -> GateToDeath
+	FireDuck [label=<<table border="0"><tr><td border="0"><img src="srcImage/1674.png"/></td></tr><tr><td>FireDuck</td></tr><tr><td>'[3] New Griffin + [3] InfernoDuke'</td></tr></table>> shape=box style=rounded]
+	neoTinker -> FireDuck
+	NewGriffin [label=<<table border="0"><tr><td border="0"><img src="srcImage/1676.png"/></td></tr><tr><td>NewGriffin</td></tr><tr><td>'[3] Griffin + [3] Dusty Elder'</td></tr><tr><td>'[3] Griffin + [3] Dusty Elder'</td></tr></table>> shape=box style=rounded]
+	FireDuck -> NewGriffin
+	InfernoDuke [label=<<table border="0"><tr><td border="0"><img src="srcImage/310.png"/></td></tr><tr><td>InfernoDuke</td></tr><tr><td>'[2] FireDuke + [2] KillerZill'</td></tr><tr><td>'[2] FireDuke + [2] Mint LionKing'</td></tr></table>> shape=box style=rounded]
+	FireDuck -> InfernoDuke
+	WildBalzac [label=<<table border="0"><tr><td border="0"><img src="srcImage/1758.png"/></td></tr><tr><td>WildBalzac</td></tr><tr><td>'[3] Balzac + [3] NeoFennecus'</td></tr></table>> shape=box style=rounded]
+	neoTinker -> WildBalzac
+	Balzac [label=<<table border="0"><tr><td border="0"><img src="srcImage/1681.png"/></td></tr><tr><td>Balzac</td></tr><tr><td>'[3] NeoMutant + [3] Pioki'</td></tr></table>> shape=box style=rounded]
+	WildBalzac -> Balzac
+	NeoFennecus [label=<<table border="0"><tr><td border="0"><img src="srcImage/1639.png"/></td></tr><tr><td>NeoFennecus</td></tr><tr><td>'[3] KingPiggy + [3] GauntletBomb'</td></tr></table>> shape=box style=rounded]
+	WildBalzac -> NeoFennecus
+}

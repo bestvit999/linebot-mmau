@@ -1,0 +1,20 @@
+// Against Graph
+digraph {
+	a [label=<<table border="0"><tr><td border="0"><img src="srcImage/1.png"/></td></tr><tr><td>Dragon </td></tr></table>> shape=box style=rounded]
+	b [label=<<table border="0"><tr><td border="0"><img src="srcImage/3.png"/></td></tr><tr><td>Beast </td></tr></table>> shape=box style=rounded]
+	c [label=<<table border="0"><tr><td border="0"><img src="srcImage/5.png"/></td></tr><tr><td>Insect </td></tr></table>> shape=box style=rounded]
+	d [label=<<table border="0"><tr><td border="0"><img src="srcImage/206.png"/></td></tr><tr><td>Metal </td></tr></table>> shape=box style=rounded]
+	e [label=<<table border="0"><tr><td border="0"><img src="srcImage/205.png"/></td></tr><tr><td>Mystery </td></tr></table>> shape=box style=rounded]
+	f [label=<<table border="0"><tr><td border="0"><img src="srcImage/2.png"/></td></tr><tr><td>Devil </td></tr></table>> shape=box style=rounded]
+	g [label=<<table border="0"><tr><td border="0"><img src="srcImage/4.png"/></td></tr><tr><td>Bird </td></tr></table>> shape=box style=rounded]
+	h [label=<<table border="0"><tr><td border="0"><img src="srcImage/204.png"/></td></tr><tr><td>Plant </td></tr></table>> shape=box style=rounded]
+	a -> b
+	b -> c
+	c -> d
+	d -> e
+	e -> f
+	f -> g
+	g -> h
+	h -> a
+	rankdir=LR
+}

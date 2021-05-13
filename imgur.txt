@@ -1,0 +1,36 @@
+Great! Now you can get started with the API!
+For public read-only and anonymous resources, such as getting image info, looking up user comments, etc. all you need to do is send an authorization header with your client_id in your requests. This also works if you'd like to upload images anonymously (without the image being tied to an account), or if you'd like to create an anonymous album. This lets us know which application is accessing the API.
+
+Authorization: Client-ID YOUR_CLIENT_ID
+
+For accessing a user's account, please visit the OAuth2 section of the docs.
+
+Client ID:
+cbb37018d97bb2e
+Client secret:
+e294e00c4ee0e2fcd5f8a545baf2113516188c28
+
+
+
+- Token Name
+mmau
+
+- Access Token
+f90853c389e52aff4a02a39216cd72f8ed5a20e4
+
+- Token Type
+bearer
+
+- expires_in
+315360000
+
+- scope
+
+- refresh_token
+0080a377bdd2e45e6ed6050bdfd476931068672e
+
+- account_id
+108009943
+
+- account_username
+mmau
